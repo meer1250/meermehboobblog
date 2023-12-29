@@ -5,7 +5,9 @@
     font-family: my font;
 }
 
-
+body {
+    background-color: #2B2A2A;
+}
 
 @font-face {
     font-family: my font;
@@ -159,13 +161,13 @@ li {
 
 #sec1 {
     width: 1351px;
-    height: 450px;
+    height: auto;
     background-color: #2B2A2A;
 }
 
 .about1 {
     font-size: 77.06px;
-    position: absolute;
+    position: relative;
     left: 127px;
     padding-top: 35px;
 }
@@ -174,20 +176,23 @@ li {
     width: 1089px;
     height: auto;
     font-size: 25px;
-    position: absolute;
+    position: relative;
     left: 200px;
-    padding-top: 135px;
+
 }
 
 .about-p1 {
     width: 1089px;
-    height: auto;
+    color: blue;
+    text-decoration: underline;
     font-size: 25px;
-    position: absolute;
+    position: relative;
     left: 200px;
-    padding-top: 290px;
+    /* padding-top: 290px; */
 }
-
+.about-p1:hover{
+    cursor: pointer;
+}
 #sec2 {
     width: 1351px;
     height: 900px;
@@ -345,6 +350,8 @@ li {
     background-color: #131313;
     display: flex;
     justify-content: center;
+    position: relative;
+    top: 85px;
 }
 
 .cone {
@@ -504,18 +511,18 @@ li {
 
     .about1 {
         font-size: 48px;
-        position: absolute;
+        position: relative;
         left: 22px;
-        padding-top: 35px;
+        /* padding-top: 35px; */
     }
 
     .about-p {
         width: 347px;
         height: auto;
         font-size: 16px;
-        position: absolute;
+        position: relative;
         left: 52px;
-        padding-top: 100px;
+        /* padding-top: 100px; */
     }
 
     #sec1 {
@@ -527,9 +534,9 @@ li {
         width: 347px;
         height: auto;
         font-size: 16px;
-        position: absolute;
+        position: relative;
         left: 52px;
-        padding-top: 305px;
+        /* padding-top: 305px; */
     }
 
     #sec2 {
@@ -542,7 +549,7 @@ li {
 
     .skill {
         font-size: 48px;
-        padding-top: 170px;
+        /* padding-top: 170px; */
 
     }
 
@@ -598,6 +605,7 @@ li {
         top: 30px;
         left: 105px;
     }
+
     #fott {
         height: auto;
         width: 430px;
@@ -606,11 +614,16 @@ li {
         justify-content: center;
         flex-direction: row;
         display: none;
+        /* position: relative;
+        top: 85px; */
     }
+
+
+
     .cone {
         font-size: 42px;
         position: relative;
         left: 40px;
-    display: none;
+        display: none;
     }
 }
