@@ -180,6 +180,20 @@ li {
     left: 200px;
 
 }
+.see{
+    width: 1089px;
+    color: blue;
+    text-decoration: underline;
+    font-size: 25px;
+    position: relative;
+   padding-left: 115px;
+   top: 40px;
+    display: flex;
+    justify-content: center;
+}
+.see:hover{
+    cursor: pointer;
+}
 
 .about-p1 {
     width: 1089px;
@@ -236,11 +250,13 @@ li {
 .js {
     left: 210px;
     top: 50px;
+    display: none;
 }
 
 .figma {
     left: 310px;
     top: 50px;
+    display: none;
 }
 
 .im1 {
@@ -585,11 +601,27 @@ li {
     .js {
         left: 22px;
         top: 160px;
+      
     }
 
     .figma {
         left: 22px;
         top: 200px;
+       
+    }
+    .see{
+        width: 1089px;
+        color: blue;
+        text-decoration: underline;
+        font-size: 25px;
+        position: relative;
+       top: 130px;
+        display: flex;
+        justify-content: center;
+        display: none;
+    }
+    .see:hover{
+        cursor: pointer;
     }
 
     .f {
