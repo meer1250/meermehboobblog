@@ -65,7 +65,7 @@
                 interfaces, I bring to the table a foundational understanding of basic networking principles, enhancing
                 my ability to create web solutions that are not only aesthetically pleasing but also functionally
                 robust.</p>
-            <p class="about-p1">
+            <p class="about-p1" onclick="learn()">
                Learn More</p>
         </section>
         
@@ -73,6 +73,7 @@
             <div class="skill2 cadd"><img class="im1" src="ISO_C++_Logo 1.png" alt="C++"><p class="c">C++</p></div>
             <div class="skill2 html"><img class="im2" src="732212 1.png" alt="HTML"><p class="h">HTML</p></div>
             <div class="skill2 css"><img class="im3" src="4672509 1.png" alt="CSS"><p class="s">CSS</p></div>
+            <p class="see" onclick="see()">See More</p>
             <div class="skill2 js"><img class="im4" src="unnamed 1.png" alt="Java Script"><p class="j">Java Script</p></div>
             <div class="skill2 figma"><img class="im5" src="figma.png" alt="Figma"><p class="f">Figma</p></div>
        
@@ -91,12 +92,35 @@
 <button class="group"><img class="rec" src="Rectangle 56.png" alt="Website"><p class="ga">Gama125</p></button>
 </footer>
 <script>
-    addEventListener("click", ()=>{
-        document.querySelector(".about-p1").innerText = "In addition to my expertise in web development, I have a grasp of the fundamentals of C++, enabling me to delve into the intricacies of programming when needed. Join me on this journey through the intersection of design, technology, and code, as we explore the evolving landscape of the web. Whether it's translating innovative ideas into captivating visuals or navigating the realms of networking and programming, I'm here to share insights and create a dialogue about the dynamic world of web development. Welcome to my blog – where design meets code, and creativity knows no bounds"
-        document.querySelector(".about-p1").style.color="white";
+    // document.addEventListener("click", (e) => {
+    //     document.querySelector(".about-p1").innerText = "In addition to my expertise in web development, I have a grasp of the fundamentals of C++, enabling me to delve into the intricacies of programming when needed. Join me on this journey through the intersection of design, technology, and code, as we explore the evolving landscape of the web. Whether it's translating innovative ideas into captivating visuals or navigating the realms of networking and programming, I'm here to share insights and create a dialogue about the dynamic world of web development. Welcome to my blog – where design meets code, and creativity knows no bounds"
+    //     e.stopPropagation(); 
+    //     document.querySelector(".about-p1").style.color = "white";
+    //     document.querySelector(".about-p1").style.textDecoration = "none";
+    //     document.querySelector(".about-p1").style.cursor = "text"
+    // });
+
+    // document.addEventListener("click", (f) => {
+    //     document.querySelector(".js").style.display = "inline-block";
+    //     document.querySelector(".figma").style.display = "inline-block";
+    //     document.querySelector(".see").style.display = "none";
+    //     f.stopPropagation(); 
+    // });
+    function learn(){
+            document.querySelector(".about-p1").innerText = "In addition to my expertise in web development, I have a grasp of the fundamentals of C++, enabling me to delve into the intricacies of programming when needed. Join me on this journey through the intersection of design, technology, and code, as we explore the evolving landscape of the web. Whether it's translating innovative ideas into captivating visuals or navigating the realms of networking and programming, I'm here to share insights and create a dialogue about the dynamic world of web development. Welcome to my blog – where design meets code, and creativity knows no bounds"
+        // e.stopPropagation(); 
+        document.querySelector(".about-p1").style.color = "white";
         document.querySelector(".about-p1").style.textDecoration = "none";
         document.querySelector(".about-p1").style.cursor = "text"
-    })
+       
+    };
+    function see(){
+              document.querySelector(".js").style.display = "inline-block";
+        document.querySelector(".figma").style.display = "inline-block";
+        document.querySelector(".see").style.display = "none";
+        // f.stopPropagation(); 
+    }
+    
 </script>
 </body>
 </html>
